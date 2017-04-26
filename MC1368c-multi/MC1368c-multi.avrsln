@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{D1100916-62DA-4D80-A9B4-55A1E7CCEEB3}") = "MC1368c-multi", "AVRGCC4\MC1368c-multi.avrgccproj", "{1815927A-FC93-4397-89BA-317C0CCF18C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1815927A-FC93-4397-89BA-317C0CCF18C4}.Debug|AVR.ActiveCfg = Debug|AVR
+		{1815927A-FC93-4397-89BA-317C0CCF18C4}.Debug|AVR.Build.0 = Debug|AVR
+		{1815927A-FC93-4397-89BA-317C0CCF18C4}.Release|AVR.ActiveCfg = Release|AVR
+		{1815927A-FC93-4397-89BA-317C0CCF18C4}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
