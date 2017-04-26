@@ -1,4 +1,4 @@
-#define F_CPU 12000000
+﻿#define F_CPU 12000000
 #define LCD_PORT PORTB // PORTB2 - CS; PORTB1 - WR; PORTB0 - DATA;
 #define DATA_PIN 0
 #define CLK_PIN 1
