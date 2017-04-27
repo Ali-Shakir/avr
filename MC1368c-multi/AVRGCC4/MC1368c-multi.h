@@ -18,11 +18,16 @@
 
 
 void LCD_write_byte (unsigned char byte, unsigned char len);
-void LCD_init(void);
-void LCD_clear(void);
-void LCD_on_off(_Bool on_off);
+
+void LCD_on_off(_Bool on_off); //включает/выключает дисплей
+
+// эти функции пользователю не нужны в общем случае
 void LCD_clean_buffer(unsigned char start,unsigned char end);
 void LCD_write_buffer(unsigned char pos,unsigned char len);
-void LCD_print_digit(int digit,unsigned char pos_dig,unsigned char len,unsigned char radix,_Bool on_off);
+
+// это пользовательские функции
+void LCD_init(void);
+void LCD_clear(void);
+void LCD_print_digit(int digit,unsigned char pos_dig,unsigned char len,unsigned char radix,_Bool on_off);//LCD_print_digit(число,позиция,длина,система_счисления,Включить_выключить);
 void LCD_print_string (char *string,unsigned  char pos_str,_Bool on_off);
 void LCD_mnemsymb_on(unsigned char symbol,_Bool on_off);
